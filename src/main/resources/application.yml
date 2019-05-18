@@ -12,3 +12,8 @@ spring:
     password:
     # Redis服务器端口。
     port: 6379
+  #
+  # Thymeleaf 配置
+  thymeleaf:
+    # 是否启用模板缓存。
+    cache: false
