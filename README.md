@@ -1,5 +1,6 @@
 # Spring-Boot-Redis-Session
 Spring Boot 整合 Redis 与 Session 共享。
+内涵 Spring Boot 整合 Redis，详情请查看 [Spring-Boot-Redis](https://github.com/XXWXHK/Spring-Boot-Redis)
 
 # 依赖
 
