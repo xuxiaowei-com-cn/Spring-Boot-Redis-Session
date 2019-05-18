@@ -20,6 +20,12 @@ spring:
     # Redis服务器端口。
     port: 6379
   #
+  # Session 配置
+  session:
+    # Session 类型
+    # 相当于手动添加 @EnableRedisHttpSession 注释
+    store-type: redis
+  #
   # Thymeleaf 配置
   thymeleaf:
     # 是否启用模板缓存。
