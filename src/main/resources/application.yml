@@ -1,3 +1,10 @@
+# 服务器 配置
+server:
+  # 服务器端口（http）
+  port: 80
+  servlet:
+    context-path: /test1
+#
 # Spring Boot 配置
 spring:
   #
