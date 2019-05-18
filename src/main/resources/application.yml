@@ -17,3 +17,9 @@ spring:
   thymeleaf:
     # 是否启用模板缓存。
     cache: false
+#
+# 日志 配置
+logging:
+  level:
+    web: debug
+    cn.com.xuxiaowei: debug
