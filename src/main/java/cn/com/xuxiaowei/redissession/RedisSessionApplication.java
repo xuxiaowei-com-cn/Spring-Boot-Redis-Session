@@ -1,4 +1,4 @@
-package cn.com.xuxiaowei.springbootredissession;
+package cn.com.xuxiaowei.redissession;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author xuxiaowei
  */
 @SpringBootApplication
-public class SpringBootRedisSessionApplication {
+public class RedisSessionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootRedisSessionApplication.class, args);
+        SpringApplication.run(RedisSessionApplication.class, args);
     }
 
 }
