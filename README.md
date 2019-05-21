@@ -17,3 +17,16 @@ Spring Boot 整合 Redis 与 Session 共享。
     
 - NoSQL
     - Redis                 Redis键值数据存储，包括spring-data-redis
+    
+    
+# 欢迎捐助
+
+- 如果您觉得本项目对您有帮助，请捐助，谢谢。
+
+- 您的捐助就是我最大的动力。
+
+<p align=center>
+  <a href="https://xuxiaowei.com.cn">
+    <img src="https://img-blog.csdnimg.cn/20190522010815371.png" alt="徐晓伟工作室" width="360">
+  </a>
+</p>
