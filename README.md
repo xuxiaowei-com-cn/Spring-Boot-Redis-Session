@@ -62,3 +62,9 @@ Spring Boot 整合 Redis 与 Session 共享。
 ## 测试
 
 - 将本项目复制一份，将端口 server.port 改为不同，运行后，访问不同的项目，卡查看到，相同的 Session
+
+## 效果
+
+<p align=center>
+    <img src="https://cdn2.xuxiaowei.com.cn/img/Redis-Session.png/xuxiaowei.com.cn" alt="Redis-Session" width="360">
+</p>
