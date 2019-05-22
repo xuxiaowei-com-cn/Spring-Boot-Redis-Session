@@ -39,7 +39,7 @@ public class RedisCacheConfig {
      * Redis 缓存管理器
      */
     @Bean
-    protected RedisCacheManager redisCacheManager(RedisTemplate redisTemplate) {
+    RedisCacheManager redisCacheManager(RedisTemplate redisTemplate) {
 
         // 检查指定的对象引用是否不是 null，如果是，抛出空指针异常
         RedisConnectionFactory redisConnectionFactory = Objects.requireNonNull(redisTemplate.getConnectionFactory());
@@ -60,7 +60,7 @@ public class RedisCacheConfig {
      * Redis 缓存模板
      */
     @Bean
-    protected RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+    RedisTemplate<Object, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
 
         // Helper类简化了Redis数据访问代码。
         RedisTemplate<Object, Object> template = new RedisTemplate<>();
