@@ -30,3 +30,25 @@ Spring Boot 整合 Redis 与 Session 共享。
     
 - NoSQL
     - Redis                 Redis键值数据存储，包括spring-data-redis
+    
+# 使用说明
+
+## 连接说明
+
+- 单个项目无所谓
+
+- 多个项目连接同一个 Redis 的相同数据库（spring.redis.database）
+
+## 支持协议
+
+- http、https
+
+## 支持域名
+
+- 必须是相同域名下的不同子域进行 Redis Session
+
+-- 如：将 Cookie 设置在 xuxiaowei.com.cn 中，可在 所有子域中使用 www.xuxiaowei.com.cn 、 demo.xuxiaowei.com.cn 等等
+
+## 测试
+
+- 将本项目复制一份，将端口 server.port 改为不同，运行后，访问不同的项目，卡查看到，相同的 Session
