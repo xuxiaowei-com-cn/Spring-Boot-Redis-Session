@@ -6,7 +6,7 @@
 
 <p align=center>
   <a href="https://xuxiaowei.com.cn">
-    <img src="https://cdn2-xuxiaowei.oss-cn-qingdao.aliyuncs.com/img/QRCode.png/xuxiaowei.com.cn" alt="徐晓伟工作室" width="360">
+    <img src="https://cdn2.xuxiaowei.com.cn/img/QRCode.png/xuxiaowei.com.cn" alt="徐晓伟工作室" width="360">
   </a>
 </p>
 
