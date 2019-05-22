@@ -57,7 +57,7 @@ Spring Boot 整合 Redis 与 Session 共享。
 
 - 必须是相同域名下的不同子域进行 Redis Session
 
--- 如：将 Cookie 设置在 xuxiaowei.com.cn 中，可在 所有子域中使用 www.xuxiaowei.com.cn 、 demo.xuxiaowei.com.cn 等等
+-- 如：将 Cookie 设置在 xuxiaowei.com.cn 中，可在 所有子域中使用 demo1.xuxiaowei.com.cn 、 demo2.xuxiaowei.com.cn 等等
 
 ## 测试
 
