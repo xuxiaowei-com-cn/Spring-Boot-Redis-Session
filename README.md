@@ -1,8 +1,8 @@
-# 欢迎捐助
+# 捐助与转载
 
-- 如果您觉得本项目对您有帮助，请捐助，谢谢。
+- 整理不易，捐助随意。
 
-- 您的捐助就是我最大的动力。
+- 尊重他人的劳动成果，转载请注明地址。
 
 <p align=center>
   <a href="https://xuxiaowei.com.cn">
@@ -59,11 +59,11 @@ Spring Boot 整合 Redis 与 Session 共享。
 
 - 必须是相同域名下的不同子域进行 Redis Session
 
--- 如：将 Cookie 设置在 xuxiaowei.com.cn 中，可在 所有子域中使用 demo1.xuxiaowei.com.cn 、 demo2.xuxiaowei.com.cn 等等
+    - 如：将 Cookie 设置在 xuxiaowei.com.cn 中，可在 所有子域中使用 demo1.xuxiaowei.com.cn 、 demo2.xuxiaowei.com.cn 等等
 
 ## 测试
 
-- 将本项目复制一份，将端口 server.port 改为不同，运行后，访问不同的项目，卡查看到，相同的 Session
+- 将本项目复制一份，将端口 server.port 改为不同，运行后，访问不同的项目，可查看到相同的 Session
 
 ## 效果
 
