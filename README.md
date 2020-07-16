@@ -22,7 +22,7 @@ Spring Boot 整合 Redis 与 Session 共享。
 - Spring Boot
     - 2.1.5.RELEASE         由于 spring-boot-starter-parent 2.1.5.RELEASE 中的 Session 需要 Security 支持，故此需要引入 Security，
                             引入 Security 依赖后，Security 默认开启，
-                            如果不使用 Security，禁用方法参见 cn.com.xuxiaowei.redissession.config.WebSecurityConfigurerAdapterConfig，
+                            如果不使用 Security，禁用方法参见 WebSecurityConfigurerAdapterConfig，
                             如果使用 2.1.5.RELEASE 之前的版本，则不需要引入 Security
 - Core
     - Session               用于管理用户会话信息的API和实现。
@@ -37,7 +37,7 @@ Spring Boot 整合 Redis 与 Session 共享。
     - Security              通过spring-security保护您的应用程序
                             （由于 spring-boot-starter-parent 2.1.5.RELEASE 中的 Session 需要 Security 支持，故此才引入，
                             Security 默认开启，
-                            如果不使用 Security，禁用方法参见 cn.com.xuxiaowei.redissession.config.WebSecurityConfigurerAdapterConfig，
+                            如果不使用 Security，禁用方法参见 WebSecurityConfigurerAdapterConfig，
                             如果使用 2.1.5.RELEASE 之前的版本，则不需要引入 Security）
     
 - NoSQL

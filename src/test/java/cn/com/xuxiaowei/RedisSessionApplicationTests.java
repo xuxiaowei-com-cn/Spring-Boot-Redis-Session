@@ -1,4 +1,4 @@
-package cn.com.xuxiaowei.redissession;
+package cn.com.xuxiaowei;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

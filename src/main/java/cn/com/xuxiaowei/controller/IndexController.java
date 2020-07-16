@@ -1,4 +1,4 @@
-package cn.com.xuxiaowei.redissession.controller;
+package cn.com.xuxiaowei.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

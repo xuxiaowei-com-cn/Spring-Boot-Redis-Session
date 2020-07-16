@@ -1,6 +1,6 @@
-package cn.com.xuxiaowei.redissession.config;
+package cn.com.xuxiaowei.configuration;
 
-import cn.com.xuxiaowei.redissession.util.Constants;
+import cn.com.xuxiaowei.util.Constants;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.DeserializationFeature;

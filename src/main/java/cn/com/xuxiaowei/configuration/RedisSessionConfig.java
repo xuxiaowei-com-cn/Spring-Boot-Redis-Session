@@ -1,4 +1,4 @@
-package cn.com.xuxiaowei.redissession.config;
+package cn.com.xuxiaowei.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
