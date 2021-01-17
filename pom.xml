@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent -->
     <parent>
@@ -47,6 +47,11 @@
             <!--<artifactId>spring-session-core</artifactId>-->
             <!-- 引入 Session、Redis 依赖为： -->
             <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+        <!-- security 与 thymeleaf 同时选择时所需依赖（在thymeleaf页面中使用security） -->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
         </dependency>
 
         <!-- - spring-boot 测试，任何项目都包含 -->
